@@ -3,7 +3,7 @@ import React from "react";
 const Ingredients = ({ ingredientsWithMeasures }) => {
   return (
     <div>
-      <table className="w-72">
+      <table className="w-full md:w-72">
         <tbody className="">
           {ingredientsWithMeasures.map((ingredient) => (
             <tr className="border" key={ingredient.index}>

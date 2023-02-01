@@ -93,7 +93,7 @@ const MealsDetails = () => {
         <h1 className="uppercase text-center text-2xl text-gray-600">
           meal details
         </h1>
-        <div className="flex gap-x-20 my-10">
+        <div className="flex flex-col md:flex-row gap-y-10 gap-x-20 my-10">
           <div className="w-full">
             <Image
               alt={singleMealFullDetails.strMeal}

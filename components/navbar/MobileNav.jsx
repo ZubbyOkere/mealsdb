@@ -16,12 +16,15 @@ const MobileNav = ({ setNavMobile }) => {
         <Link href="/" onClick={() => setNavMobile(false)}>
           <li className="text-md">home</li>
         </Link>
-        <Link href="/" onClick={() => setNavMobile(false)}>
-          <li className="text-md">landlords</li>
+        <Link href="/meals" onClick={() => setNavMobile(false)}>
+          <li className="text-md">meals</li>
         </Link>
 
         <Link href="/" onClick={() => setNavMobile(false)}>
-          <li className="text-md">tenants</li>
+          <li className="text-md">drinks</li>
+        </Link>
+        <Link href="/savedmeals" onClick={() => setNavMobile(false)}>
+          <li className="text-md">saved meals</li>
         </Link>
 
         <Link href="/" onClick={() => setNavMobile(false)}>
